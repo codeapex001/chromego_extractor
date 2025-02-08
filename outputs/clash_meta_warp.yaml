@@ -58,14 +58,14 @@ proxies:
 - name: 🇫🇷 FR-Hysteria | 0-0
   type: hysteria
   server: 195.154.200.40
-  port: 2345
-  ports: 2345
+  port: 15010
+  ports: 15010
   auth-str: dongtaiwang.com
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: bing.com
+  sni: apple.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -86,30 +86,30 @@ proxies:
 - name: 🇺🇸 US-Hysteria | 2-0
   type: hysteria
   server: 108.181.24.77
-  port: 35862
-  ports: 40000-50000
+  port: 11512
+  ports: 20000-30000
   auth-str: dongtaiwang.com
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: bing.com
+  sni: apple.com
   skip-cert-verify: true
   alpn:
   - h3
 - name: 🇫🇷 FR-Hysteria2 | 0-0
   type: hysteria2
   server: 195.154.33.70
-  port: 42259
+  port: 13861
   password: dongtaiwang.com
   sni: www.bing.com
   skip-cert-verify: true
 - name: 🇺🇸 US-Hysteria2 | 1-0
   type: hysteria2
   server: 108.181.5.130
-  port: 7329
+  port: 43836
   password: dongtaiwang.com
-  sni: www.bing.com
+  sni: apple.com
   skip-cert-verify: true
 - name: 🇨🇳 TW-vless | 0-0
   type: vless
