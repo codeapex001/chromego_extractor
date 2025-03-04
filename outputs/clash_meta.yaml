@@ -80,14 +80,14 @@ proxies:
 - name: 🇫🇷 FR-Hysteria2 | 0-0
   type: hysteria2
   server: 195.154.33.70
-  port: 13861
+  port: 59967
   password: dongtaiwang.com
   sni: www.bing.com
   skip-cert-verify: true
 - name: 🇺🇸 US-Hysteria2 | 1-0
   type: hysteria2
   server: 108.181.5.130
-  port: 43836
+  port: 15544
   password: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
